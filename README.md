@@ -11,28 +11,28 @@ Antes de comenzar, asegúrate de tener lo siguiente instalado en tu sistema:
    ```bash
    npm install -g appium
 
+**Paso 1: Configuración del entorno**
+1. *Instalar Appium*: Ejecuta el siguiente comando para instalar Appium globalmente:
 
-Paso 1: Configuración del entorno
-Instalar Appium: Ejecuta el siguiente comando para instalar Appium globalmente:
+   ```bash
+   npm install -g appium
 
-bash
-Copy code
-npm install -g appium
-Instalar Appium-Python-Client: Este es el cliente de Python para interactuar con Appium.
+2. *Instalar Appium-Python-Client*: Este es el cliente de Python para interactuar con Appium.
 
-bash
-Copy code
-pip install Appium-Python-Client
-Instalar Selenium: Appium usa Selenium para interactuar con la interfaz de usuario de la aplicación.
+   ```bash
+   pip install Appium-Python-Client
 
-bash
-Copy code
-pip install selenium
-Configurar Android Studio y Emulador:
+3. *Instalar Selenium*: Appium usa Selenium para interactuar con la interfaz de usuario de la aplicación.
 
-Instala Android Studio y configura un emulador de Android siguiendo las instrucciones de la documentación oficial.
-Asegúrate de tener un dispositivo o emulador configurado con un nombre (ej., emulator-5554).
-Paso 2: Configuración de Appium
+   ```bash
+   pip install selenium
+
+4. *Configurar Android Studio y Emulador*:
+- Instala Android Studio y configura un emulador de Android siguiendo las instrucciones de la documentación oficial.
+- Asegúrate de tener un dispositivo o emulador configurado con un nombre (ej., emulator-5554).
+
+
+**Paso 2: Configuración de Appium**
 Iniciar el servidor de Appium:
 Abre una terminal (CMD, PowerShell, o terminal de tu elección) y ejecuta el siguiente comando para iniciar Appium:
 
