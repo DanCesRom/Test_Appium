@@ -28,8 +28,8 @@ Antes de comenzar, asegúrate de tener lo siguiente instalado en tu sistema:
    pip install selenium
 
 4. *Configurar Android Studio y Emulador*:
-   - Instala Android Studio y configura un emulador de Android siguiendo las instrucciones de la documentación oficial.
-   - Asegúrate de tener un dispositivo o emulador configurado con un nombre (ej., emulator-5554).
+- Instala Android Studio y configura un emulador de Android siguiendo las instrucciones de la documentación oficial.
+- Asegúrate de tener un dispositivo o emulador configurado con un nombre (ej., emulator-5554).
 
 
 **Paso 2: Configuración de Appium**
