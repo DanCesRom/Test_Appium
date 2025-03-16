@@ -11,6 +11,8 @@ Antes de comenzar, asegúrate de tener lo siguiente instalado en tu sistema:
    ```bash
    npm install -g appium
 
+
+
 **Paso 1: Configuración del entorno**
 1. *Instalar Appium*: Ejecuta el siguiente comando para instalar Appium globalmente:
 
@@ -33,46 +35,48 @@ Antes de comenzar, asegúrate de tener lo siguiente instalado en tu sistema:
 
 
 **Paso 2: Configuración de Appium**
-Iniciar el servidor de Appium:
-Abre una terminal (CMD, PowerShell, o terminal de tu elección) y ejecuta el siguiente comando para iniciar Appium:
+1- *Iniciar el servidor de Appium*:
+- Abre una terminal (CMD, PowerShell, o terminal de tu elección) y ejecuta el siguiente comando para iniciar Appium:
 
-bash
-Copy code
-appium
-Esto iniciará el servidor de Appium en el puerto 4723 por defecto. Deja esta terminal abierta mientras trabajas.
+   ```bash
+   appium
 
-Paso 3: Usar Appium Inspector
-Abrir Appium Inspector:
-Abre Appium Inspector desde el acceso directo en tu computadora (debe haberse instalado automáticamente con Appium).
-Conéctate al servidor de Appium en http://127.0.0.1:4723 (puerto por defecto).
-Conecta tu dispositivo o emulador Android al inspector, seleccionando el dispositivo adecuado (por ejemplo, emulator-5554).
-Una vez conectado, podrás ver y explorar la interfaz de usuario de tu aplicación móvil y obtener los identificadores de los elementos necesarios para el script (como el resource-id, text, etc.).
-Paso 4: Ejecutar el Script en Python
-Descargar el archivo APK: Asegúrate de tener el archivo APK de la aplicación que deseas probar.
+- Esto iniciará el servidor de Appium en el puerto 4723 por defecto. Deja esta terminal abierta mientras trabajas.
 
-Configurar el script Python:
+**Paso 3: Usar Appium Inspector**
+1. *Abrir Appium Inspector*:
+- Abre Appium Inspector desde el acceso directo en tu computadora (debe haberse instalado automáticamente con Appium).
+- Conéctate al servidor de Appium en http://127.0.0.1:4723 (puerto por defecto).
+- Conecta tu dispositivo o emulador Android al inspector, seleccionando el dispositivo adecuado (por ejemplo, emulator-5554).
+- Una vez conectado, podrás ver y explorar la interfaz de usuario de tu aplicación móvil y obtener los identificadores de los elementos necesarios para el script (como el resource-id, text, etc.).
 
-Descarga el archivo test_script.py (el archivo que contiene el código de prueba automatizado con Appium y Python).
-Asegúrate de que el script Python tenga la ruta correcta al archivo APK y a tu emulador/dispositivo Android.
-Configuración del script:
+**Paso 4: Ejecutar el Script en Python**
+1. *Descargar el archivo APK*: Asegúrate de tener el archivo APK de la aplicación que deseas probar.
 
-Cambia la ruta del APK en el script si es necesario:
+2. Configurar el script Python:
 
-python
-Copy code
-options.app = r"C:\\ruta\\al\\archivo\\PokeApp.apk"
-Cambia el nombre del dispositivo o emulador si es necesario:
+- Descarga el archivo test_script.py (el archivo que contiene el código de prueba automatizado con Appium y Python).
+- Asegúrate de que el script Python tenga la ruta correcta al archivo APK y a tu emulador/dispositivo Android.
 
-python
-Copy code
-options.device_name = "emulator-5554"
-Ejecutar el script Python:
+*Configuración del script*:
 
-Abre una terminal, navega a la carpeta donde está guardado el script y ejecuta:
-bash
-Copy code
-python test_script.py
-El script se conectará al servidor de Appium, abrirá la aplicación en el emulador o dispositivo, interactuará con los elementos de la interfaz de usuario, y finalmente tomará una captura de pantalla del resultado.
+- Cambia la ruta del APK en el script si es necesario:
+   ```bash
+   options.app = r"C:\\ruta\\al\\archivo\\PokeApp.apk"
+
+- Cambia el nombre del dispositivo o emulador si es necesario:
+   ```bash
+   options.device_name = "emulator-5554"
+
+3. Ejecutar el script Python:
+
+- Abre una terminal, navega a la carpeta donde está guardado el script y ejecuta:
+    ```bash
+   python test_script.py
+
+- El script se conectará al servidor de Appium, abrirá la aplicación en el emulador o dispositivo, interactuará con los elementos de la interfaz de usuario, y finalmente tomará una captura de pantalla del resultado.
+
+
 Paso 5: Verificación y Depuración
 Verificar los resultados:
 
