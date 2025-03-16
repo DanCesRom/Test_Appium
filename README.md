@@ -75,23 +75,24 @@ Antes de comenzar, asegúrate de tener lo siguiente instalado en tu sistema:
 - El script se conectará al servidor de Appium, abrirá la aplicación en el emulador o dispositivo, interactuará con los elementos de la interfaz de usuario, y finalmente tomará una captura de pantalla del resultado.
 
 
-Paso 5: Verificación y Depuración
-Verificar los resultados:
+**Paso 5: Verificación y Depuración**
+1. Verificar los resultados:
 
-Si todo funciona correctamente, se debería tomar una captura de pantalla llamada appium_test_screenshot.png.
-Revisa la captura de pantalla para verificar que el flujo de la prueba se haya realizado correctamente.
-Solución de problemas:
+- Si todo funciona correctamente, se debería tomar una captura de pantalla llamada appium_test_screenshot.png.
+- Revisa la captura de pantalla para verificar que el flujo de la prueba se haya realizado correctamente.
 
-Si encuentras algún error en la ejecución, revisa los logs de Appium en la terminal donde ejecutaste appium para obtener detalles sobre el problema.
-Asegúrate de que el emulador o dispositivo esté correctamente configurado y conectado.
-Paso 6: Cerrar sesión de Appium
-Cerrar Appium:
-Una vez que la prueba haya terminado, puedes cerrar la sesión de Appium desde la terminal que ejecutaste el servidor con Ctrl + C.
-También puedes cerrar el emulador o dispositivo cuando ya no los necesites.
-Notas
-Compatibilidad de versiones: Asegúrate de que las versiones de Appium, Android Studio, y las dependencias de Python sean compatibles entre sí para evitar problemas de ejecución.
-Emulador o Dispositivo Real: Si prefieres usar un dispositivo físico, conecta tu dispositivo Android a tu computadora y habilita la depuración USB en las opciones de desarrollador del dispositivo.
-go
-Copy code
+2. Solución de problemas:
 
-Este `README.md` cubre todos los pasos necesarios para instalar y ejecutar Appium con Python
+- Si encuentras algún error en la ejecución, revisa los logs de Appium en la terminal donde ejecutaste appium para obtener detalles sobre el problema.
+- Asegúrate de que el emulador o dispositivo esté correctamente configurado y conectado.
+
+
+**Paso 6: Cerrar sesión de Appium**
+
+1. Cerrar Appium:
+- Una vez que la prueba haya terminado, puedes cerrar la sesión de Appium desde la terminal que ejecutaste el servidor con Ctrl + C.
+- También puedes cerrar el emulador o dispositivo cuando ya no los necesites.
+
+**Notas**
+- Compatibilidad de versiones: Asegúrate de que las versiones de Appium, Android Studio, y las dependencias de Python sean compatibles entre sí para evitar problemas de ejecución.
+- Emulador o Dispositivo Real: Si prefieres usar un dispositivo físico, conecta tu dispositivo Android a tu computadora y habilita la depuración USB en las opciones de desarrollador del dispositivo.
