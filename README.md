@@ -11,7 +11,6 @@ Antes de comenzar, asegúrate de tener lo siguiente instalado en tu sistema:
    ```bash
    npm install -g appium
 
-
 **Paso 1: Configuración del entorno**
 1. *Instalar Appium*: Ejecuta el siguiente comando para instalar Appium globalmente:
 
